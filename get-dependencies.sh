@@ -13,14 +13,13 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
-#make-aur-package PACKAGENAME
+make-aur-package themix-gui-git
+make-aur-package themix-theme-oomox-git
+make-aur-package themix-icons-archdroid-git
+make-aur-package themix-icons-gnome-colors-git
+make-aur-package themix-icons-numix-git
+make-aur-package themix-icons-papirus-git
+make-aur-package themix-export-spotify-git
+make-aur-package themix-import-images-git
+make-aur-package themix-plugin-base16-git
 
-# If the application needs to be manually built that has to be done down here
-
-# if you also have to make nightly releases check for DEVEL_RELEASE = 1
-#
-# if [ "${DEVEL_RELEASE-}" = 1 ]; then
-# 	nightly build steps
-# else
-# 	regular build steps
-# fi
