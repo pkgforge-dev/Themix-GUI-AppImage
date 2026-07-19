@@ -19,7 +19,7 @@ quick-sharun \
 	/usr/bin/themix* \
 	/usr/lib/libgtk-3.so*
 
-sed -i -e 's|/opt|"$APPDIR"|' ./AppDir/bin/oomox* ./AppDir/bin/themix*
+sed -i -e 's|/opt/oomox|"$APPDIR"/bin|' ./AppDir/bin/oomox* ./AppDir/bin/themix*
 cp -rv /opt/oomox/* ./AppDir/bin
 
 # Turn AppDir into AppImage
