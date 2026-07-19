@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/com.github.themix_project.Oom
 export DESKTOP=/usr/share/applications/com.github.themix_project.Oomox.desktop
 export DEPLOY_PYTHON=1
 export ALWAYS_SOFTWARE=1
+export APPNAME=Themix
 
 # Deploy dependencies
 quick-sharun \
