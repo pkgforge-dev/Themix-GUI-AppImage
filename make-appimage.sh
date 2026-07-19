@@ -16,8 +16,10 @@ export APPNAME=Themix
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/oomox*  \
-	/usr/bin/themix* \
+	/usr/bin/oomox*                 \
+	/usr/bin/themix*                \
+	/usr/bin/sassc                  \
+	/usr/bin/glib-compile-resources \
 	/usr/lib/libgtk-3.so*
 
 sed -i -e 's|/opt/oomox|"$APPDIR"/bin|' ./AppDir/bin/oomox* ./AppDir/bin/themix*
