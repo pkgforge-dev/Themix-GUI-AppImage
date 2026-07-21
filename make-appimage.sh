@@ -19,6 +19,7 @@ quick-sharun \
 	/usr/bin/oomox*                 \
 	/usr/bin/themix*                \
 	/usr/bin/sassc                  \
+	/usr/bin/rsvg-convert           \
 	/usr/bin/glib-compile-resources \
 	/usr/lib/libgtk-3.so*
 
